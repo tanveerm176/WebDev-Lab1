@@ -1,4 +1,5 @@
 import React from "react";
+import Event from "./Event";
 
 const Calendar = () => {
   return (
@@ -20,7 +21,7 @@ const Calendar = () => {
         <tbody>
           <tr>
             <td className="time">8 am</td>
-            <td></td>
+            <Event event='Fancy Dinner 🎩' color ='green' />
             <td></td>
             <td></td>
             <td></td>
@@ -30,7 +31,7 @@ const Calendar = () => {
           </tr>
           <tr>
             <td className="time">9 am</td>
-            <td></td>
+            <Event event='Starbucks ☕️' color='blue'></Event>
             <td></td>
             <td></td>
             <td></td>
@@ -43,7 +44,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Yolk 🍳' color='pink'></Event>
             <td></td>
             <td></td>
             <td></td>
@@ -53,7 +54,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event = 'Subway 🚊' color = 'green' location ='MTA'/>
             <td></td>
             <td></td>
             <td></td>
@@ -65,13 +66,13 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue'/>
             <td></td>
           </tr>
           <tr>
             <td className="time">1 pm</td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue'/>
             <td></td>
             <td></td>
             <td></td>
@@ -83,7 +84,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue'/>
             <td></td>
             <td></td>
             <td></td>
@@ -96,12 +97,12 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue'/>
           </tr>
           <tr>
             <td className="time">4 pm</td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue'/>
             <td></td>
             <td></td>
             <td></td>
@@ -114,7 +115,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='The Bean 🫘' color ='blue' location='Work'/>
             <td></td>
             <td></td>
           </tr>

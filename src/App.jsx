@@ -9,7 +9,7 @@ const App = () =>{
     <div className='App'>
       <h1>Iternerary for 7 Days in New York</h1>
       <h2>Welcome to New York, Mo! Check out this calendar to get to know the city better!</h2>
-      <Calendar />
+      <Calendar></Calendar>
     </div>
   )
 }
